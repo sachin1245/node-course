@@ -1,5 +1,5 @@
-var weather = require('./weather.js');
-var location = require('./location.js');
+var weather = require('./weather');
+var location = require('./location');
 var argv = require('yargs')
 	.command('location','give the location of the weather to be display',function(yargs){
 			yargs.options({
