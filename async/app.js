@@ -36,20 +36,6 @@ location(argv.location).then(function(location){
 
 
 
-// 	location(function(location){
-
-// 		if(!location){
-// 			console.log('unable to guess lcoation');
-// 			return;
-// 		}
-
-// 		weather(location.city,function(body){
-// 			console.log(body);
-// 		});
-	
-// 	})
-// }
-
 
 
 
